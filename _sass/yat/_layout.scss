@@ -246,10 +246,6 @@ html {
   -ms-flex: none; /* <-- Fix IE footer issue */
   padding: $spacing-unit * 2 0;
   padding-top: 72px;
-  -webkit-user-select:text;
-  -moz-user-select:text;
-  -ms-user-select:text;
-  user-select:text
 }
 
 .page-heading {
@@ -377,6 +373,10 @@ html {
  */
 .post {
   @extend %post-header;
+  -webkit-user-select:text;
+  -moz-user-select:text;
+  -ms-user-select:text;
+  user-select:text;
 
   .post-header {
     margin: 50px auto 60px;
