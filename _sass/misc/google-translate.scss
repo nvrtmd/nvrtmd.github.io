@@ -105,6 +105,10 @@ div#google_translate_element {
 
 body {
   top: 0px !important;
+  -webkit-user-select:none;
+  -moz-user-select:none;
+  -ms-user-select:none;
+  user-select:none
 }
 
 /* OVERRIDE GOOGLE TRANSLATE WIDGET CSS END */
