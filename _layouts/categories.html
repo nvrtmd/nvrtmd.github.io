@@ -5,6 +5,20 @@ permalink: "/categories.html"
 ---
 
 <div class="row listrecent">
+    <div style="width:100%;padding:0 13px;">
+        {% assign categories_list = site.categories %}
+        {% if categories_list.first[0] == null %}
+            {% for category in categories_list %}
+                <a class="category-badge" href="{{site.baseurl}}/categories#{{ category | url_escape | strip | replace: ' ', '-' }}">{{ category | camelcase }} ({{ site.tags[category].size }})</a>
+            {% endfor %}
+        {% else %}
+            {% for category in categories_list %}
+                <a class="category-badge" href="{{site.baseurl}}/categories#{{ category[0] | url_escape | strip | replace: ' ', '-' }}">{{ category[0] | camelcase }} ({{ category[1].size }})</a>
+            {% endfor %}
+        {% endif %}
+        {% assign categories_list = nil %}
+    </div>
+
 {% for category in site.categories %}
 <div class="section-title col-md-12 mt-4">
 <h2 id="{{ category[0] | replace: " ","-" }}">Category <span class="text-capitalize">{{ category[0] }}</span></h2>
