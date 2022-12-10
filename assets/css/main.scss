@@ -3,13 +3,23 @@
 # Change this file for any custom CSS.
 ---
 
+body {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  .article-post{
+    -webkit-user-select: text;
+    -moz-user-select: text;
+    -ms-use-select: text;
+    user-select: text;   
+  }
+}
+
 /* We need to add display:inline in order to align the '>>' of the 'read more' link */
 .post-excerpt p {
-	display:inline;
+  display: inline;
 }
 
 // Import partials from `sass_dir` (defaults to `_sass`)
-@import
-	"syntax",
-    "starsnonscss"
-;
+@import "syntax", "starsnonscss";
