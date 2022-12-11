@@ -176,6 +176,11 @@ section.recent-posts {
     margin-bottom: 15px;
 }
 
+.post-wrapper {    
+    border-top: 1px solid rgba(0, 0, 0, .125);
+    padding: 2rem 0;
+;}
+
 .author-wrapper {    
     display: flex;
     margin: 1rem 0 1rem;
