@@ -8,7 +8,7 @@ License: https://www.wowthemes.net/freebies-license/
     .container {max-width:80%;}
 }
 .mainheading {
-    padding: 1rem 0rem;
+    padding: 0rem;
 }
 
 a {
@@ -183,11 +183,12 @@ section.recent-posts {
 
 .author-wrapper {    
     display: flex;
-    margin: 1rem 0 1rem;
+    margin: 2rem 0 2rem;
 }
 
 .author-avatar {
     width: 8%;
+    min-width: 50px;
     margin-right: 1rem;
 }
 
@@ -336,6 +337,7 @@ span.post-read-more a:hover {
 
 .mainheading h1.posttitle {
     font-weight: 700;
+    font-size: 2.2rem;
     margin-bottom: 1rem;
 }
 
