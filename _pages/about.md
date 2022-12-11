@@ -1,35 +1,54 @@
 ---
 layout: page
-title: ABOUT ME🙋🏻‍♀️
+title: ABOUT ME 🙋🏻‍♀️
 permalink: /about
 comments: true
 ---
-
-<div class="row justify-content-between">
+<div class="row justify-content-between" style="-webkit-user-select: none; -moz-user-select: none; -ms-user-select: none; user-select: none;">
 <div class="col-md-8 pr-5">
+<h4>🐥 About 🐥</h4>
 
-<p>This website is built with Jekyll and Mediumish template for Jekyll. It's for demonstration purposes, no real content can be found. Mediumish template for Jekyll is compatible with Github pages, in fact even this demo is created with Github Pages and hosted with Github.</p>
+<p>
+    Hello, World! I'm YUZAMIN, a diligently endeavoring frontend developer and this is my little dev blog.
+</p>
 
-<p class="mb-5"><img class="shadow-lg" src="{{site.baseurl}}/assets/images/mediumish-jekyll-template.png" alt="jekyll template mediumish" /></p>
-<h4>Documentation</h4>
+<p>I am really interested in personal growth, and I hope to become a member who can help grow the organization to which I belong 💁🏻‍♀️</p>
 
-<p>Please, read the docs <a href="https://bootstrapstarter.com/bootstrap-templates/template-mediumish-bootstrap-jekyll/">here</a>.</p>
+<h4>🐤 Who am I 🐤</h4>
 
-<h4>Questions or bug reports?</h4>
+<div>🌱 I’m currently learning JavaScript, TypeScript, React, Node.js and Python!</div>
 
-<p>Head over to our <a href="https://github.com/wowthemesnet/mediumish-theme-jekyll">Github repository</a>!</p>
+<div>
+<a href="https://github.com/nvrtmd" target="_blank">
+👾 This is my github profile 👾</a>
+</div>
+
+<div>
+<a href="https://bit.ly/minyuza-resume" target="_blank">
+📄 Here's my resume including my experiences 📄</a>
+</div>
+
+<div>
+<a href="https://bit.ly/yuzamin-portfolio" target="_blank">
+👨‍💻 All of my projects are available here!</a>
+</div>
+
+<div>
+<a href="https://twitter.com/nvrtmd" target="_blank">
+🕊 Click here to reach me 🕊</a>
+</div>
 
 </div>
 
 <div class="col-md-4">
 
 <div class="sticky-top sticky-top-80">
-<h5>Buy me a coffee</h5>
-
-<p>Thank you for your support! Your donation helps me to maintain and improve <a target="_blank" href="https://github.com/wowthemesnet/mediumish-theme-jekyll">Mediumish <i class="fab fa-github"></i></a>.</p>
-
-<a target="_blank" href="https://www.wowthemes.net/donate/" class="btn btn-danger">Buy me a coffee</a> <a target="_blank" href="https://bootstrapstarter.com/bootstrap-templates/template-mediumish-bootstrap-jekyll/" class="btn btn-warning">Documentation</a>
+<div style="display:flex; justify-contents:center;flex-direction:column;text-align:center;" >
+<img src="assets/images/a.gif" style="width:40%;border-radius:100%;margin:0 auto;" alt="">
+<div style="margin-top: 1rem;font-weight:300; font-size: 0.8rem;">I love the East Sea of Korea 🌊</div>
+</div>
 
 </div>
 </div>
+
 </div>
