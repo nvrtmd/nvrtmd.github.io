@@ -8,7 +8,7 @@ License: https://www.wowthemes.net/freebies-license/
     .container {max-width:80%;}
 }
 .mainheading {
-    padding: 0rem;
+    padding: 4rem 0;
 }
 
 a {
@@ -181,6 +181,10 @@ section.recent-posts {
     padding: 2rem 0;
 ;}
 
+.post-header {
+
+}
+
 .author-wrapper {    
     display: flex;
     margin: 2rem 0 2rem;
@@ -335,7 +339,7 @@ span.post-read-more a:hover {
     font-family: Righteous;
 }
 
-.mainheading h1.posttitle {
+.posttitle {
     font-weight: 700;
     font-size: 2.2rem;
     margin-bottom: 1rem;
