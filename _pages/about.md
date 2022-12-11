@@ -6,13 +6,15 @@ comments: true
 ---
 <div class="row justify-content-between" style="-webkit-user-select: none; -moz-user-select: none; -ms-user-select: none; user-select: none;">
 <div class="col-md-8 pr-5">
-<h4>🐥 About 🐥</h4>
+<h4>🐥 Hello, World! 🐥</h4>
 
 <p>
-    Hello, World! I'm YUZAMIN, a diligently endeavoring frontend developer and this is my little dev blog.
+    I'm YUZAMIN, a diligently endeavoring frontend developer and this is my little dev blog.
 </p>
 
 <p>I am really interested in personal growth, and I hope to become a member who can help grow the organization to which I belong 💁🏻‍♀️</p>
+
+<br />
 
 <h4>🐤 Who am I 🐤</h4>
 
