@@ -46,7 +46,7 @@ comments: true
 
 <div class="sticky-top sticky-top-80">
 <div style="display:flex; justify-contents:center;flex-direction:column;text-align:center;" >
-<img src="assets/images/a.gif" style="width:40%;border-radius:100%;margin:0 auto;" alt="">
+<img src="assets/images/about/east_sea.gif" style="width:40%;border-radius:100%;margin:0 auto;" alt="">
 <div style="margin-top: 1rem;font-weight:300; font-size: 0.8rem;">I love the East Sea of Korea 🌊</div>
 </div>
 
