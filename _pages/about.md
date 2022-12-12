@@ -2,11 +2,16 @@
 layout: page
 title: ABOUT ME 🙋🏻‍♀️
 permalink: /about
-comments: true
+# comments: true
 ---
-<div class="row justify-content-between" style="-webkit-user-select: none; -moz-user-select: none; -ms-user-select: none; user-select: none;">
-<div class="col-md-8 pr-5">
-<h4>🐥 Hello, World! 🐥</h4>
+<div class="row justify-content-center" style="-webkit-user-select: none; -moz-user-select: none; -ms-user-select: none; user-select: none;">
+<div style="padding: 0 2.5rem;">
+
+<div style="display:flex; margin:1rem 0 2rem;" >
+<img src="{{ site.baseurl }}/assets/images/about/avatar_sally.gif" style="width:25%; min-width:100px; border-radius:100%; margin:0 auto;" alt=""/>
+</div>
+
+<h4 style="text-align: center;">🐥 Hello, World! 🐥</h4>
 
 <p>
     I'm YUZAMIN, a diligently endeavoring frontend developer and this is my little dev blog.
@@ -16,7 +21,7 @@ comments: true
 
 <br />
 
-<h4>🐤 Who am I 🐤</h4>
+<h4 style="text-align: center;">🐤 Who am I 🐤</h4>
 
 <div>🌱 I’m currently learning JavaScript, TypeScript, React, Node.js and Python!</div>
 
@@ -42,16 +47,16 @@ comments: true
 
 </div>
 
-<div class="col-md-4">
+<!-- <div class="col-md-4">
 
 <div class="sticky-top sticky-top-80">
 <div style="display:flex; justify-contents:center;flex-direction:column;text-align:center;" >
-<img src="assets/images/about/east_sea.gif" style="width:40%;border-radius:100%;margin:0 auto;" alt="">
+<img src="{{ site.baseurl }}/assets/images/about/east_sea.gif" style="width:40%;border-radius:100%;margin:0 auto;" alt="">
 <div style="margin-top: 1rem;font-weight:300; font-size: 0.8rem;">I love the East Sea of Korea 🌊</div>
-</div>
+</div> -->
 
-</div>
-</div>
+<!-- </div>
+</div> -->
 
 </div>
 <br />
