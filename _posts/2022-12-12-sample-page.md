@@ -123,7 +123,7 @@ printf("Hello World");
 
 
 
-![walking]({{ site.baseurl }}/assets/images/8.jpg)
+<!-- ![walking]({{ site.baseurl }}/assets/images/8.jpg) -->
 ![Crepe](https://s3-media3.fl.yelpcdn.com/bphoto/cQ1Yoa75m2yUFFbY2xwuqw/348s.jpg)
 
 ## Reference lists
