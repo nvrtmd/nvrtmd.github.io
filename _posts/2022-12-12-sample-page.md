@@ -1,10 +1,11 @@
 ---
 layout: post
-title:  "Powerful things you can do with the Markdown editor"
+title:  "이것은 게시글의 제목입니다"
+featured: false
 author: admin
-categories: [ Jekyll, tutorial ]
-image: assets/images/16.jpg
-beforetoc: "Markdown editor is a very powerful thing. In this article I'm going to show you what you can actually do with it, some tricks and tips while editing your post."
+categories: [ Sample Post ]
+image: https://s3-media3.fl.yelpcdn.com/bphoto/cQ1Yoa75m2yUFFbY2xwuqw/348s.jpg
+beforetoc: "이것은 게시글의 개요를 설명하는 문장입니다. 썸네일 이미지 밑에 삽입되며 기울기가 적용되어 있습니다."
 toc: true
 ---
 There are lots of powerful things you can do with the Markdown editor. If you've gotten pretty comfortable with writing in Markdown, then you may enjoy some more advanced tips about the types of things you can do with Markdown!
