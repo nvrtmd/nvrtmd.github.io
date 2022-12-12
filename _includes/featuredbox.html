@@ -31,6 +31,13 @@
 
                             <h4 class="card-text">{{ post.excerpt | strip_html | truncatewords:25 }}</h4>
                         </div>
+
+                        <div class="card-footer b-0 bg-white mt-auto">
+                            <div class="wrapfooter">
+                                <span class="post-date">{{ post.date | date_to_string }}</span>
+                            </div>
+                        </div>
+
                         <!-- <div class="card-footer b-0 bg-white mt-auto">
                             <div class="wrapfooter">
                                 {% if post.author %}
