@@ -59,7 +59,7 @@ function lunr_search(term) {
     $('#lunrsearchresults').show( 400 );
     $( "body" ).addClass( "modal-open" );
     
-    document.getElementById('lunrsearchresults').innerHTML = '<div id="resultsmodal" class="modal fade show d-block" style="background-color: rgb(0, 0, 0, 0.5);" tabindex="-1" role="dialog" aria-labelledby="resultsmodal"> <div class="modal-dialog shadow-lg" id="modal-content-wrapper" role="document"> <div class="modal-content"> <div class="modal-header" id="modtit"> <button type="button" class="close" id="btnx" data-dismiss="modal" aria-label="Close"> &times; </button> </div> <div class="modal-body"> <ul class="mb-0"> </ul>    </div> <div class="modal-footer"><button id="btnx" type="button" class="btn btn-danger btn-sm" data-dismiss="modal">Close</button></div></div> </div></div>';
+    document.getElementById('lunrsearchresults').innerHTML = '<div id="resultsmodal" class="modal fade show d-block" style="background-color: rgb(0, 0, 0, 0.5);" tabindex="-1" role="dialog" aria-labelledby="resultsmodal"><div style="width: 100%; height: 100%; display:flex;"> <div class="modal-content" id="modal-content-wrapper" style="width: 50%; max-height: 70%;margin: auto;"> <div class="modal-header" id="modtit"> <button type="button" class="close" id="btnx" data-dismiss="modal" aria-label="Close"> &times; </button> </div> <div class="modal-body" style="overflow: auto;"> <ul class="mb-0"> </ul></div> <div class="modal-footer"><button id="btnx" type="button" class="btn btn-danger btn-sm" data-dismiss="modal">Close</button></div></div> </div></div>';
 
 
     if(term) {
@@ -75,7 +75,7 @@ function lunr_search(term) {
                 var url = documents[ref]['url'];
                 var title = documents[ref]['title'];
                 var body = documents[ref]['body'].substring(0,160)+'...';
-                document.querySelectorAll('#lunrsearchresults ul')[0].innerHTML = document.querySelectorAll('#lunrsearchresults ul')[0].innerHTML + "<li class='lunrsearchresult'><a href='" + url + "'><span class='title'>" + title + "</span><br /><small><span class='body'>"+ body +"</span><br /><span class='url'>"+ url +"</span></small></a></li>";
+                document.querySelectorAll('#lunrsearchresults ul')[0].innerHTML = document.querySelectorAll('#lunrsearchresults ul')[0].innerHTML + "<li class='lunrsearchresult'><a href='" + url + "'><span class='title'>" + title + "</span><br /><small><span class='body'>"+ body +"</span><br /></small></a></li><br /><br />";
             }
         } else {
             document.querySelectorAll('#lunrsearchresults ul')[0].innerHTML = "<li class='lunrsearchresult'>Sorry, no results found. Close & try a different search!</li>";
@@ -90,8 +90,8 @@ $(function() {
         $( "body" ).removeClass( "modal-open" );
     });
 
-    $("#lunrsearchresults").on('click', '#modal-content-wrapper', function () {
-        stopPropagation();
+    $("#lunrsearchresults").on('click', '#modal-content-wrapper', function (e) {
+        e.stopPropagation();
     });
 
     $("#lunrsearchresults").on('click', '#resultsmodal', function () {
