@@ -187,7 +187,7 @@ section.recent-posts {
 
 .author-wrapper {    
     display: flex;
-    margin: 2rem 0 2rem;
+    margin: 2rem 0 4rem;
 }
 
 .author-avatar {
@@ -382,7 +382,7 @@ blockquote {
 
 .featured-image {
     display: block;
-    margin-bottom: 1.5rem;
+    margin-bottom: 4rem;
     /* width: 100%; */
 }
 
