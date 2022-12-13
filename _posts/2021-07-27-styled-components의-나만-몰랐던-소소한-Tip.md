@@ -4,7 +4,7 @@ title:  "styled-components의 나만 몰랐던 소소한 Tip"
 description: "이런 구조의 코드가 있을 때, 나는 container라는 class의 div에 특정 CSS를 적용하려면 무조건 div도 컴포넌트화 하여서 이런 식으로 코드를 짜야 하는 줄 알았다. 아니었다."
 featured: false
 author: admin
-categories: [ Project ]
+categories: [ TIL ]
 tags: [원티드 프리온보딩 코스]
 image: "https://user-images.githubusercontent.com/67324487/207390203-c770d0e9-9cc6-40cb-bccf-14f32c92497d.png"
 # beforetoc: ""
