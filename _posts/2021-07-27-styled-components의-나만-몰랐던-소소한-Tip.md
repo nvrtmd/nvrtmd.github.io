@@ -6,7 +6,7 @@ featured: false
 author: admin
 categories: [ TIL ]
 tags: [원티드 프리온보딩 코스]
-image: "https://user-images.githubusercontent.com/67324487/207390203-c770d0e9-9cc6-40cb-bccf-14f32c92497d.png"
+image: "https://user-images.githubusercontent.com/67324487/207408850-ad6edad2-a8e1-44a5-b29e-dd6b9be00098.png"
 # beforetoc: ""
 toc: true
 # rating: 3
