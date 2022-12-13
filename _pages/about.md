@@ -37,7 +37,7 @@ permalink: /about
 
 <div>
 <a href="https://bit.ly/yuzamin-portfolio" target="_blank">
-👨‍💻 All of my projects are available here!</a>
+👨‍💻 All of my projects are available here! 👨‍💻</a>
 </div>
 
 <div>
