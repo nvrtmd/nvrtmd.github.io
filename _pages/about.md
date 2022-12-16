@@ -1,6 +1,6 @@
 ---
 layout: page
-title: ABOUT ME 🙋🏻‍♀️
+title: ABOUT MYSELF 🙋🏻‍♀️
 permalink: /about
 # comments: true
 ---
