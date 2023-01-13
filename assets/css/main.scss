@@ -8,12 +8,16 @@ body {
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
-  .article-post{
+  .article-post {
     -webkit-user-select: text;
     -moz-user-select: text;
     -ms-use-select: text;
-    user-select: text;   
+    user-select: text;
   }
+}
+
+code {
+  font-weight: 600;
 }
 
 /* We need to add display:inline in order to align the '>>' of the 'read more' link */
