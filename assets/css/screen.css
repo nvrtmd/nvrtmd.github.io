@@ -24,17 +24,18 @@ a:hover {
 pre {
     -moz-box-sizing: border-box;
     box-sizing: border-box;
-    border: #E3EDF3 1px solid;
+    border: #8b8b8b 1px solid;
     width: 100%;
     padding: 7px;
-    font-family: monospace, sans-serif;
-    font-size: .9rem;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1rem;
+    font-weight: 500;
     white-space: pre;
     overflow: auto;
     background: #fff;
     border-radius: 0px;
     line-height: 1.6;
-    color: #333;
+    color: #404040;
     margin-bottom: -rem;
 }
 
