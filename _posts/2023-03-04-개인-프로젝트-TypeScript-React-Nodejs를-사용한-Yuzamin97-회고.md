@@ -61,6 +61,10 @@ hidden: false
 
 [**🌏Link🌍**](https://web-yuzamin97-luj2cldvrt49y.sel3.cloudtype.app/)
 
+## Repository
+- [**Frontend (React + TypeScript)**](https://github.com/nvrtmd/react-membership-board-ts) 
+- [**Backend (Node.js + express)**](https://github.com/nvrtmd/node-membership-board)
+
 ## 회원가입 및 로그인
 
 ![회원가입 및 로그인](https://user-images.githubusercontent.com/67324487/222918251-f890105f-09a4-486a-bdde-5b22d24c6293.gif)
