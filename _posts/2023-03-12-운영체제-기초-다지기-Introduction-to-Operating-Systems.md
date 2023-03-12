@@ -4,8 +4,8 @@ title: '[운영체제 기초 다지기] Introduction to Operating Systems'
 description: '컴퓨터 하드웨어 윗단, 각종 소프트웨어 밑단에 설치되어 사용자 및 모든 소프트웨어, 하드웨어를 연결하는 소프트웨어 계층'
 featured: false
 author: admin
-categories: [회고]
-tags: [프로젝트]
+categories: [os]
+tags: [운영체제 기초]
 image: 'https://user-images.githubusercontent.com/67324487/224537426-4ae50fb4-3b70-4641-b3ca-c7d4e303dcea.png'
 # beforetoc: ""
 toc: true
@@ -39,3 +39,5 @@ hidden: false
 - 형평성: 특정 프로그램 또는 사용자가 차별받지 않도록
     - 각 프로그램들이 메모리를 적절히 차지할 수 있도록 조율
 - 편의성: 여러 프로그램이 한 대의 컴퓨터에서 동시 실행되지만 사용자는 자신이 사용하고 있는 하나의 프로그램만 CPU를 점유하여 사용하고 있는 것처럼 느끼도록
+
+[출처](http://www.kocw.net/home/search/kemView.do?kemId=1046323&ar=pop)
