@@ -6,7 +6,7 @@ featured: false
 author: admin
 categories: [JavaScript]
 tags: [자바스크립트 기초]
-image: 'https://user-images.githubusercontent.com/67324487/221408637-cc076e3e-b081-4683-9b42-118945649e20.png'
+image: 'https://user-images.githubusercontent.com/67324487/224537084-aa5c1422-e955-4a51-9105-77640b69ae99.png'
 # beforetoc: ""
 toc: true
 # rating: 3
