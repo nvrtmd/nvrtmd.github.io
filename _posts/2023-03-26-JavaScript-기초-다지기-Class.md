@@ -10,7 +10,7 @@ image: 'https://user-images.githubusercontent.com/67324487/226158387-bf581b21-1b
 # beforetoc: ""
 toc: true
 # rating: 3
-hidden: true
+hidden: false
 ---
 
 # Class의 정의
