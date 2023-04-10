@@ -172,7 +172,7 @@ SALLY's BOARD 프로젝트에서 가장 아쉬웠던 점 중 하나는 게시판
 
 - [**웹스토어 Link**](https://store.plkey.app/)
 - [**인턴쉽 회고1 Link**](https://nvrtmd.github.io/%EC%9D%B8%ED%84%B4%EC%89%BD-%ED%94%84%EB%A1%A0%ED%8A%B8%EC%97%94%EB%93%9C-%EC%9D%B8%ED%84%B4%EC%89%BD-%ED%9A%8C%EA%B3%A0-%EB%AC%B8%EC%84%9C%ED%99%94-%EC%95%84%EC%B9%B4%EC%9D%B4%EB%B9%99/)
-- [**인턴쉽 회고2 Link**](bit.ly/playkeyboard-internship-review)
+- [**인턴쉽 회고2 Link**](https://bit.ly/playkeyboard-internship-review)
 
 <div style="page-break-after: always;"></div>
 
@@ -274,6 +274,12 @@ SALLY's BOARD 프로젝트에서 가장 아쉬웠던 점 중 하나는 게시판
 ### 구름톤(9oormthon) 5기
 
 ![구름톤](https://user-images.githubusercontent.com/67324487/230942987-3cf5a54d-365b-4e4d-9220-42dd240ba40b.png)
+
+### Links
+
+- 리팩토링 진행 저장소
+  - [**Frontend Repository Link**](https://github.com/E1I4-9oormthon/olle-ts-client)
+  - [**Backend Repository Link**](https://github.com/E1I4-9oormthon/olle-server)
 
 #### Summary
 
