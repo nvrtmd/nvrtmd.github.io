@@ -4,6 +4,7 @@ title: ABOUT MYSELF 🙋🏻‍♀️
 permalink: /about
 # comments: true
 ---
+
 <div class="row justify-content-center" style="-webkit-user-select: none; -moz-user-select: none; -ms-user-select: none; user-select: none;">
 <div style="padding: 0 2.5rem;">
 
@@ -31,12 +32,7 @@ permalink: /about
 </div>
 
 <div>
-<a href="https://bit.ly/minyuza-resume" target="_blank">
-📄 Here's my resume including my experiences 📄</a>
-</div>
-
-<div>
-<a href="https://bit.ly/yuzamin-portfolio" target="_blank">
+<a href="https://github.com/nvrtmd/nvrtmd/files/11439467/Frontend_Developer_._portfolio.pdf" target="_blank">
 👨‍💻 All of my projects are available here! 👨‍💻</a>
 </div>
 
