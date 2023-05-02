@@ -19,9 +19,9 @@ hidden: true
 
 `구름톤(9oormthon, 해커톤) 5기 참여 당시 사진`
 
-## ❤Github
+## ❤GitHub
 
-[**Github Link**](https://github.com/nvrtmd)
+[**GitHub Link**](https://github.com/nvrtmd)
 
 ## 📚Blog
 
