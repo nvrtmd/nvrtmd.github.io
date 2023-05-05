@@ -17,8 +17,6 @@ hidden: true
 
 ![profile-image](https://user-images.githubusercontent.com/67324487/236469809-9c853a6b-ece9-47d5-a5c5-8be2e3002900.jpg)
 
-`구름톤(9oormthon, 해커톤) 5기 참여 당시 사진`
-
 ## ❤GitHub
 
 [**GitHub Link**](https://github.com/nvrtmd)
