@@ -15,7 +15,7 @@ hidden: true
 
 # 👩🏻‍💻Profile
 
-![profile-image](https://user-images.githubusercontent.com/67324487/230933721-fc1b1263-f227-46fd-83e3-df4ad6f929b4.png)
+![profile-image](https://user-images.githubusercontent.com/67324487/236469809-9c853a6b-ece9-47d5-a5c5-8be2e3002900.jpg)
 
 `구름톤(9oormthon, 해커톤) 5기 참여 당시 사진`
 
