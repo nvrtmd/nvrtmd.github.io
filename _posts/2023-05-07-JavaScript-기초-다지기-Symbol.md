@@ -13,136 +13,88 @@ toc: true
 hidden: false
 ---
 
-# 계산된 프로퍼티 (Computed Property)
+# 객체 프로퍼티와 Symbol
 
-- 객체의 key 값을 [변수]로 표현 시 변수 안의 값이 객체의 key 값으로 할당됨
-  - 그 프로퍼티를 ‘계산된 프로퍼티’라고 칭함
+- 객체 프로퍼티 키로 문자형과 Symbol이 올 수 있음
+  - Boolean이나 숫자로 된 키는 문자형으로 반환되며 접근할 때도 문자형으로 접근 가능
 
 ```jsx
-const key1 = 'name'
-const user1 = {
-  [key1]: 'Yuza',
-  age: 49,
+const object = {
+  1: '1이다',
+  false: '거짓이다',
 }
+Object.keys(object) // ["1", "false"]
 
-console.log(user1) // { name: 'Yuza', age: 49 }
-
-// --------------------------------------------------------------
-
-const user2 = {
-  [9 + 3]: 12,
-  ['say' + ' hello']: 'Hello',
-}
-
-console.log(user2) // { '12': 12, 'say hello': 'Hello' }
+console.log(object['1']) // "1이다"
 ```
 
-# 다양한 객체 메소드
-
-## Object.assign(초기값, 복제할 객체): 객체 복제 메소드
-
-- 변수에 ‘객체를 할당한 다른 변수’를 할당하는 방식으로는 제대로 복제할 수 없음
-  - clone1에 person을 할당할 경우, person이 가리키던 객체를 clone1도 함께 가리키게 됨
-  - clone1이 가리키는 객체와 person이 가리키는 객체는 동일 객체이므로, clone1을 통해 객체의 속성값을 변경하면 person에 할당된 객체의 속성값도 함께 변경됨
+- Symbol은 유일한 식별자를 만들 때 사용 = 유일성 보장
+  - 유일한 식별자이므로 a와 b가 각각 다름
 
 ```jsx
-const person = {
-  name: 'Yuza',
-  age: 29,
-}
+const a = Symbol()
+const b = Symbol()
 
-const clone1 = person
-clone1.name = 'James'
+console.log(a, b) // Symbol() Symbol()
 
-console.log(person) // { name: 'James', age: 29 } person도 함께 바뀌어버림;;
-console.log(clone1) // { name: 'James', age: 29 }
+console.log(a === b) // false
+console.log(a == b) // false
 ```
 
-- Object.assign() 메소드를 활용한 객체 복제
+- Symbol에 description 추가 가능
+  - Symbol()에 전달되는 문자열은 Symbol 생성에 영향 끼치지 않음 = 여전히 유일성 보장
 
 ```jsx
-const person = {
-  name: 'Yuza',
-  age: 29,
-}
+const a = Symbol('hi')
+const b = Symbol('hi')
 
-// 초기값이 빈 객체인 경우
-const clone2 = Object.assign({}, person)
-clone2.name = 'James'
+console.log(a, b) // Symbol(hi) Symbol(hi)
 
-console.log(person) // { name: 'Yuza', age: 29 }
-console.log(clone2) // { name: 'James', age: 29 }
+console.log(a === b) // false
+console.log(a == b) // false
 
-// --------------------------------------------------------------
-
-// 초기값이 존재하는 경우
-const clone3 = Object.assign({ job: 'programmer' }, person)
-clone3.name = 'Diane'
-
-console.log(clone3) // { job: 'programmer', name: 'Diane', age: 29 }
-
-// --------------------------------------------------------------
-
-// 초기값에 동일 속성명의 속성값 존재할 시, 해당 속성값은 객체의 원래 속성값으로 덮어씌워짐
-const clone4 = Object.assign({ name: 'Colin', age: 10, job: 'writer' }, person)
-
-console.log(clone4) // {name: 'Yuza', age: 29, job: 'writer'}
-
-// --------------------------------------------------------------
-
-// 다수의 객체 통합
-const attribute1 = {
-  job: 'programmer',
-}
-const attribute2 = {
-  location: 'Seoul',
-}
-
-const clone5 = Object.assign(person, attribute1, attribute2)
-
-console.log(clone5) // {name: 'Yuza', age: 29, job: 'programmer', location: 'Seoul'}
+// 생성 시 전달된 문자열 확인
+a.description // 'hi'
 ```
 
-## Object.keys(): 객체의 속성명을 배열로 반환
+- Symbol형 프로퍼티 키
+  - Object.keys()나 for in문으로는 출력되지 않음 = 은폐 가능
+  - 특정 객체의 원본 데이터를 건드리지 않고 속성을 추가할 때 사용됨
+    - 다른 사람이 만든 객체에 자신만의 속성을 추가하여 덮어써버리지 않기 위함
 
 ```jsx
-const person = {
-  name: 'Yuza',
-  age: 38,
-}
-
-console.log(Object.keys(person)) // [ 'name', 'age' ]
-```
-
-## Object.values(): 객체의 속성값을 배열로 반환
-
-```jsx
-const person = {
-  name: 'Yuza',
-  age: 67,
-}
-
-console.log(Object.values(person)) // [ 'Yuza', 67 ]
-```
-
-## Object.entries(): 객체의 속성명과 속성값을 배열로 반환
-
-```jsx
-const person = {
-  name: 'Yuza',
+const id = Symbol('id')
+const user = {
+  name: 'Tom',
   age: 20,
+  [id]: 'hidden id', // Symbol형 프로퍼티 키
 }
 
-console.log(Object.entries(person)) // [ [ 'name', 'Yuza' ], [ 'age', 20 ] ]
+Object.keys(user) // ['name', 'age'] Symbol형 프로퍼티 key 은폐됨
+Object.values(user) // ['Tom', 20] Symbol형 프로퍼티 value도 은폐됨
+for (let key in user) {
+  console.log(key)
+} // 'name' 'age' Symbol형 프로퍼티 key 은폐됨
+
+// 숨겨진 Symbol key 보는 법
+Object.getOwnPropertySymbols(user) // [Symbol(id)]
+Reflect.ownKeys(user) // ['name', 'age', Symbol(id)]
 ```
 
-## Object.fromEntries(): 객체의 key와 value 배열을 객체로 변환
+# 전역 Symbol: Symbol.for()
+
+- Symbol.for()
+  - 보통의 Symbol은 이름이 같아도 모두 다른 존재이지만, 전역 변수처럼 이름이 같으면 같은 객체를 가리켜야 할 때 Symbol.for() 사용
+    - 단 하나의 Symbol만이 보장됨
+    - Symbol.keyFor(이름): 생성 시 전달한 이름 반환
 
 ```jsx
-const person = [
-  ['name', 'Yuza'],
-  ['age', 13],
-]
+const symbol1 = Symbol.for('onlySymbol')
+const symbol2 = Symbol.for('onlySymbol')
 
-console.log(Object.fromEntries(person)) // { name: 'Yuza', age: 13 }
+console.log(symbol1 == symbol2) // true
+console.log(symbol1 === symbol2) // true
+
+Symbol.keyFor(symbol1) // 'onlySymbol'
+Symbol.keyFor(symbol2) // 'onlySymbol'
 ```
