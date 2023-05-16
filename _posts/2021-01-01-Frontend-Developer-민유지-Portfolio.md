@@ -4,8 +4,8 @@ title: 'Frontend Developer 민유지'
 description: '성실하게 성장하는 신입 프론트엔드 개발자 민유지입니다.'
 featured: false
 author: admin
-categories: [portfolio]
-tags: [포트폴리오]
+categories: []
+tags: []
 image: 'https://user-images.githubusercontent.com/67324487/230932389-6420f9a7-a9d6-42d1-ab88-82c382cd334e.png'
 # beforetoc: ""
 toc: false
